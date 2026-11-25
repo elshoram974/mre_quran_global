@@ -5,7 +5,7 @@ branch `global` of `elshoram974/mre_quran_global` (`AppConfig.mediaBase` in the 
 
 | Folder | What | Served at |
 |---|---|---|
-| `adhan/` | Adhan recordings downloaded on demand, cleaned by the app's `tool/audio/build_adhan_audio.py` | `https://elshoram974.github.io/mre_quran_global/adhan/<id>.m4a` |
+| `adhan/` | Adhan recordings, and Sheikh Al-Shaarawy's dua after the adhan, downloaded on demand, cleaned by the app's `tool/audio/build_adhan_audio.py` | `https://elshoram974.github.io/mre_quran_global/adhan/<id>.m4a` |
 | `privacy/` | The privacy policy (Arabic and English) | `https://elshoram974.github.io/mre_quran_global/privacy/` |
 | `LINKS.md` | Every address the app downloads from | |
 

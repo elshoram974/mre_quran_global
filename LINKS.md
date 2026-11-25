@@ -4,7 +4,7 @@ What the app fetches from the internet, and from where. Anything here can be
 copied into this repository and served from it instead (the app checks every
 file against its SHA-256, so a copy must be the same bytes).
 
-## Adhan voices (on demand: a tap on listen or download)
+## Adhan voices and the dua after the adhan (on demand: a tap on listen or download)
 
 The app asks this repository first (`https://elshoram974.github.io/mre_quran_global/adhan/<id>.m4a`,
 the cleaned files in `adhan/`), and the original below if that fails.
@@ -16,9 +16,10 @@ the cleaned files in `adhan/`), and the original below if that fails.
 | `makkah_ali_mullah_fajr` | https://archive.org/download/MakkahFajrAdhan6913SheikhAliMullah/Makkah%20Fajr%20Adhan%206-9-13%20Sheikh%20Ali%20Mullah.mp3 | `adhan/makkah_ali_mullah_fajr.m4a` (cleaned) |
 | `mansoor_zahrani_fajr` | https://raw.githubusercontent.com/abodehq/Athan-MP3/cf1a9dd4f1e5e10009439099c5af74479ad332c0/Sounds/Athan%20Mansoor%20Az-Zahrani.mp3 | `adhan/mansoor_zahrani_fajr.m4a` (cleaned) |
 | `malek_chebae_fajr` | https://raw.githubusercontent.com/abodehq/Athan-MP3/cf1a9dd4f1e5e10009439099c5af74479ad332c0/Sounds/Athan%20Al-fajer%20-%20Malek%20chebae.mp3 | `adhan/malek_chebae_fajr.m4a` (cleaned) |
+| `dua_after_adhan_shaarawy` (the dua after the adhan) | https://archive.org/download/AD3YA---SHEKH---METOLLYAL---SHA3RAWY---MP3---Qass--nabwy--MP3/1.MP3 | `adhan/dua_after_adhan_shaarawy.m4a` (cleaned) |
 
-The bundled voices (Nasser Al-Qatami's adhan, the default; Mishary Alafasy's Fajr adhan and dua; Sheikh
-Al-Shaarawy's dua) ship inside the app; their originals are listed in the app's `tool/audio/adhan_sources.json`.
+The bundled voices (Nasser Al-Qatami's adhan, the default; Mishary Alafasy's Fajr adhan and dua) ship inside
+the app; their originals are listed in the app's `tool/audio/adhan_sources.json`.
 
 ## Printed Mushaf pages (on demand: a page opened, or the whole Mushaf downloaded)
 
